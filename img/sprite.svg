@@ -1,0 +1,21 @@
+<svg  xmlns="http://www.w3.org/2000/svg">
+  <symbol id="arrow-left" viewBox="0 0 409.6 196.92">
+    <g id="arrow-left" viewBox="0 0 409.6 196.92">
+     <rect  y="88.75" width="409.6" height="19.42" rx="9.71" ry="9.71"/>
+      <rect x="66.78701" y="53.042507" width="144.93" height="19.42" rx="9.71" ry="9.71" transform="rotate(45)" id="rect3817"/>
+      <rect x="-72.469719" y="-86.204781" width="144.93" height="19.42" rx="9.71" ry="9.71" transform="rotate(135)" id="rect3819"/>
+    </g>
+  </symbol>
+  <symbol id="arrow-right" viewBox="0 0 409.6 196.92">
+    <g id="arrow-right" viewBox="0 0 409.6 196.92">
+      <rect y="88.75" width="409.6" height="19.42" rx="9.71" ry="9.71"/>
+      <rect x="761.05" y="329.62" width="144.93" height="19.42" rx="9.71" ry="9.71" transform="translate(6.07 -775.24) rotate(45)"/>
+      <rect x="761.05" y="418.38" width="144.93" height="19.42" rx="9.71" ry="9.71" transform="translate(1247.6 -143.84) rotate(135)"/>
+    </g>
+  </symbol>
+  <symbol id="arrow-point-down" viewBox="0 0 451.846 451.847">
+    <g width="451.846px" height="451.847px" id="arrow-point-down" viewBox="0 0 451.846 451.847">
+      <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744 L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284 c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z" transform="translate(451.846 0) rotate(90)" />
+    </g>
+  </symbol>
+</svg>
