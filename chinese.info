@@ -1,0 +1,62 @@
+name = chinese
+description = Description of chinese theme 2020
+version = "7.x"
+core = "7.x"
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colorscheme.css
+
+
+
+regions[header_top_left] = Header top left
+regions[header_top_right] = Header top right
+
+regions[header_right] = Header right
+regions[header] = Header
+regions[highlighted] = Highlighted
+
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[featured_left] = Featured left
+regions[featured_right] = Featured right
+
+regions[footer_first] = Footer first
+regions[footer_second] = Footer second
+regions[footer_third] = Footer third
+regions[footer] = Footer
+
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+
+
+
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+regions[footer_first] = Footer first
+
+regions[header_top_left] = Logo
+regions[header_top_center] = Menu
+regions[header_right] = Lang switcher
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+
+settings[responsive_menu_state]= 1
+settings[responsive_menu_switchwidth]='760'
+settings[responsive_menu_topoptiontext]= 'Select a page'
+settings[issn]  = 1
+settings[issn_name] = ""
+settings[issn_online]  = 1
+settings[issn_online_name] = ""
+
+features[] = name
+features[] = slogan
+features[] = main_menu
