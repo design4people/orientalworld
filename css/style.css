@@ -2827,3 +2827,22 @@ article ul {
   text-decoration: none;
   color: #9b0c23;
 }
+
+/* colorscheme */
+
+.site-header,
+.site-header__wrapper,
+.main-nav__toggle,
+.nav-list__item,
+.lang-list,
+.lang-list__item,
+.lang-list li,
+.start-page .page-header,
+.inner-page .page-header {
+  background-color: #f4f2e3;
+
+}
+
+.page-footer {
+  background-color: #d3c992;
+}
