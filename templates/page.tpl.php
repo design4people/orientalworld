@@ -21,9 +21,9 @@ function subMenu($m, $sub = true)
 ?>
 <header class="site-header">
   <div class="site-header__wrapper">
-    <a class="site-header__logo <?php echo ($language->language == 'uk' ? 'logo-ua' : ''); ?>" href="<?php print $front_page; ?>">
+    <a class="site-header__logo <?php echo ($language->language == 'ua' ? 'logo-ua' : ''); ?>" href="<?php print $front_page; ?>">
       <picture>
-        <img class="site-header__logo-image" src="/<?php echo path_to_theme(); ?>/img/chinese-studies-journal-logo-<?php echo $language->language;?>.svg" width="340" height="47" height="36" alt="<?php print t('Home'); ?>">
+        <img class="site-header__logo-image" src="/<?php echo path_to_theme(); ?>/img/oriental-world-logo-<?php echo $language->language;?>.svg" width="340" height="47" height="36" alt="<?php print t('Home'); ?>">
       </picture>
     </a>
 
@@ -105,7 +105,6 @@ function subMenu($m, $sub = true)
 	    		    <?php endif; ?>
             	    </div>
         	</div>
-    	    </div>
     <?php } else { ?>
             <header class="page-header">
                 <h1 class="page-header__title visually-hidden"><span>Welcome to</span><br> Chinese Studies journal</h1>
@@ -178,7 +177,6 @@ function subMenu($m, $sub = true)
                     </div>
                 </div>
                 
-            </div>
     <?php } ?>
 
     <footer class="page-footer">
@@ -191,7 +189,7 @@ function subMenu($m, $sub = true)
 	    <?php endif; ?>
         </ul>
     </footer>
-
+  </div>
 </main>
 
 
