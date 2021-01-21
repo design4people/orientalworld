@@ -600,7 +600,7 @@ main {
 }
 
 .start-page .page-header {
-  background: url("../img/background-chinese-studies.jpg") center no-repeat;
+  background: url("../img/background-index.jpg") center no-repeat;
   background-size: cover;
   background-position: right;
   background-color: #faecc7;
@@ -1217,7 +1217,7 @@ main {
   left: 0;
   width: 368px;
   height: 216px;
-  background: url("../img/chinese-lanterns.jpg") right no-repeat;
+  background: url("../img/about_image.jpg") right no-repeat;
   background-size: cover;
   overflow: hidden;
   
