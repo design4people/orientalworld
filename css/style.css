@@ -2863,7 +2863,31 @@ article ul {
 .start-page .page-header,
 .inner-page .page-header {
   background-color: #f4f2e3;
+}
 
+.sublist-archive__toggle:active,
+.sublist-forauthors__toggle:active,
+.nav-sublist__link {
+  background-color: #CCC7A3;
+}
+
+@media (min-width: 830px) {
+  .nav-list__item .nav-list__link:hover,
+  .nav-sublist__link:hover,
+  .nav-subsublist__item .nav-subsublist__link:hover {
+    background-color: #CCC7A3;
+  }
+}
+
+.nav-subsublist__link {
+  background-color: #DED8B1;
+}
+
+@media (min-width: 830px) {
+  .nav-sublist__link,
+  .nav-subsublist__link {
+  background-color: #DED8B1;
+  }
 }
 
 .page-footer {
