@@ -196,6 +196,9 @@ function subMenu($m, $sub = true)
 <?php if ($page['footer_first']) { ?>
 <footer class="site-footer">
     <?php print render($page['footer_first']); ?>
+    <?php if ($page['footer_second']) { ?>
+    <?php print render($page['footer_second']); ?>
+    <?php } ?>
     <?php if (!empty($site_name)):?>
         <p class="site-footer__copyright">
 		© <?php print(date('Y') . ' ');?>
