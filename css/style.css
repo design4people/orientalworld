@@ -2868,25 +2868,25 @@ article ul {
 .sublist-archive__toggle:active,
 .sublist-forauthors__toggle:active,
 .nav-sublist__link {
-  background-color: #CCC7A3;
+  background-color: #D9D3AD;
 }
 
 @media (min-width: 830px) {
   .nav-list__item .nav-list__link:hover,
   .nav-sublist__link:hover,
   .nav-subsublist__item .nav-subsublist__link:hover {
-    background-color: #CCC7A3;
+    background-color: #D9D3AD;
   }
 }
 
 .nav-subsublist__link {
-  background-color: #DED8B1;
+  background-color: #E6E0B8;
 }
 
 @media (min-width: 830px) {
   .nav-sublist__link,
   .nav-subsublist__link {
-  background-color: #DED8B1;
+  background-color: #E6E0B8;
   }
 }
 
