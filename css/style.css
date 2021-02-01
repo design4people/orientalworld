@@ -1064,7 +1064,8 @@ main {
 }
 
 @media (min-width: 830px) {
-  .page-content {
+  .page-content,
+  .site-footer__content {
     display: flex;
     padding: 0 30px;
     
@@ -1079,7 +1080,8 @@ main {
 }
 
 @media (min-width: 1200px) {
-  .page-content {
+  .page-content,
+  .site-footer__content {
     padding: 0;
     padding-right: 15px;
     
@@ -1390,6 +1392,7 @@ main {
 .curent-issue__content .field-item img {
   width: 222px;
   height: 309px;
+  box-shadow: 0 0 0px 1px #e5e4e4;
 }
 
 @media (min-width: 830px) {
@@ -2823,10 +2826,26 @@ article ul {
   margin: 0 auto;
 }
 
+/* crutch for drupal */
+.region-footer-first,
+.region-footer-second {
+  width: 444px;
+  margin: 0 auto;
+}
+
+/* crutch for drupal */
+.region-footer-second p {
+  text-align: center;
+}
+
+.site-footer__wrapper .content p {
+  text-align: center;
+}
+
 .site-footer__copyright,
 .site-footer__license,
-.site-footer__wrapper p,
-.block-block .site-footer__wrapper p {
+.site-footer__wrapper p
+/* .block-block .site-footer__wrapper p */ {
   margin: 0;
   padding: 13px 0;
   
@@ -2841,6 +2860,7 @@ article ul {
   padding-bottom: 0;
 }
 
+/* crutch for drupal */
 .block-block .site-footer__wrapper img {
   margin: 0;
 }
@@ -2850,6 +2870,78 @@ article ul {
   text-decoration: none;
   color: #9b0c23;
 }
+
+@media (min-width: 830px) {
+  .site-footer__wrapper {
+    width: 830px;
+  }
+  
+  /* crutch for drupal */
+  .region-footer-first,
+  .region-footer-second {
+    width: 830px;
+  }
+  
+  .site-footer__wrapper .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* crutch for drupal */
+  .region-footer-first .content,
+  .region-footer-second .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* crutch for drupal */
+  .region-footer-second .content {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .site-footer__wrapper .content p {
+    width: 370px;
+    text-align: center;
+  }
+  
+  /* crutch for drupal */
+  .region-footer-first .content p {
+    width: 370px;
+    text-align: center;
+  }
+  
+  /* crutch for drupal */
+  .region-footer-second .content p {
+    /* width: 370px; */
+    /* text-align: center; */
+  }
+  
+  .site-footer__wrapper .content .site-footer__license {
+    width: 770px;
+  }
+  
+  /* crutch for drupal */
+  .region-footer-first .content .site-footer__license {
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-footer__wrapper {
+    width: 1260px;
+  }
+  
+  /* crutch for drupal */
+  .region-footer-first,
+  .region-footer-second {
+    width: 1260px;
+  }
+}
+
 
 /* colorscheme */
 
