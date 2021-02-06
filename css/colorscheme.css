@@ -1,3 +1,5 @@
+/* colorscheme */
+
 .site-header,
 .site-header__wrapper,
 .main-nav__toggle,
@@ -13,28 +15,32 @@
 .sublist-archive__toggle:active,
 .sublist-forauthors__toggle:active,
 .nav-sublist__link {
-  background-color: #D9D3AD;
+  background-color: #e3e0Ca;
 }
 
 @media (min-width: 830px) {
   .nav-list__item .nav-list__link:hover,
   .nav-sublist__link:hover,
   .nav-subsublist__item .nav-subsublist__link:hover {
-    background-color: #D9D3AD;
+    background-color: #e3e0Ca;
   }
 }
 
 .nav-subsublist__link {
-  background-color: #E6E0B8;
+  background-color: #ebe8d1;
 }
 
 @media (min-width: 830px) {
   .nav-sublist__link,
   .nav-subsublist__link {
-  background-color: #E6E0B8;
+  background-color: #ebe8d1;
   }
 }
 
 .page-footer {
   background-color: #d3c992;
+}
+
+.site-footer {
+  background-color: #f4f2e3;
 }
