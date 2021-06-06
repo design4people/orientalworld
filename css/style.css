@@ -1127,12 +1127,12 @@ main {
 
 @media (min-width: 1200px) {
   .headings__item {
-    font-size: 14px;
-    line-height: 18px;
+    /* font-size: 14px; */
+    /* line-height: 18px; */
   }
   
   .headings__item::before {
-    top: 7px;
+    /* top: 7px; */
   }
 }
 
