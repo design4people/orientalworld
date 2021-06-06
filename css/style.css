@@ -357,7 +357,7 @@ img {
   .nav-list__item {
     position: relative;
     margin: 0;
-    margin-right: 10px;
+    margin-right: 5px;
     width: auto;
   }
   
@@ -368,7 +368,7 @@ img {
   .nav-list__item .nav-list__link,
   .nav-list__item span {
     margin: 0;
-    padding: 6px 10px;
+    padding: 6px 7px;
     padding-bottom: 10px;
   }
   
@@ -379,7 +379,7 @@ img {
   .nav-list__item--active span::after {
     content: "";
     position: absolute;
-    left: 10px;
+    left: 7px;
     bottom: 5px;
     
     background-color: #9b0c23;
