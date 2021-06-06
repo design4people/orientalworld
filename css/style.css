@@ -118,7 +118,6 @@ img {
 
 @media (min-width: 445px) {
   .site-header__logo {
-    display: block;
     padding-left: 0px;
     padding-top: 20px;
     width: 300px;
@@ -301,8 +300,8 @@ img {
 @media (min-width: 830px) {
   .nav-list {
     display: flex;
-    margin-left: -10px;
-    margin-right: 20px;
+    margin-left: -30px;
+    margin-right: 10px;
     padding-top: 10px;
   }
 }
